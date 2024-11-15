@@ -40,7 +40,7 @@ My solution:
 ### Links
 
 - Solution URL: [Social Links Profile Repo](https://github.com/lia-oliveira/social-links-profile)
-- Live Site URL: [Social Links Profile Live](https://your-live-site-url.com)
+- Live Site URL: [Social Links Profile Live](https://social-links-profile-one-lac.vercel.app/)
 
 ## My process
 
