@@ -35,7 +35,7 @@
     --font-bold:'Inter-Bold';
     --fs-11: 0.6875em;
     --fs-12: 0.75em;
-    --fs-14: 1.166em;
+    --fs-14: 0.73684210526315796em;
     --fs-24: 1.5em;
     --fw-400: 400;
     --fw-600: 600;
@@ -74,6 +74,10 @@ body{
     text-align: center;
 }
 
+header{
+    margin-bottom: 30px;
+}
+
 header img {
     width: 5.375rem;
     border-radius: 50%;
@@ -88,14 +92,49 @@ header h1{
 
 header p:first-of-type{
     color:var(--Green);
-    font-weight: var(--fw-400);
-    font-size: var(--fs-12);
-    letter-spacing: 1.25px;
+    font-family: var(--font-semibold);
+    font-weight: var(--fw-600);
+    font-size: var(--fs-14);
     margin: 0.9375em 0 2.1875em 0;
 }
 
 header p:last-of-type{
+    font-family: var(--font-semibold);
+    font-weight: var(--fw-600);
+    font-size: var(--fs-11);
+}
+
+main{
+    width: 100%;
+}
+
+main ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap:10px;
+}
+
+main ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17.3125rem;
+    height: 2.75rem;
+    background-color: var(--Grey-700);
+}
+
+ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 2.75rem;
+    font-family: var(--font-semibold);
+    font-weight: var(--fw-600);
     font-size: var(--fs-12);
+    color:var(--White);
 
 }
 
