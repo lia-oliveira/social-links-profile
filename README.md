@@ -4,6 +4,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ## Table of contents
 
+
 - [Frontend Mentor - Social links profile solution](#frontend-mentor---social-links-profile-solution)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
@@ -14,7 +15,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
@@ -29,20 +29,18 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Expected solution:
+![](./preview.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+My solution:
+![](./solution/jessica-randall-solution.jpg)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./solution/jessica-randall-solution-active.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Social Links Profile Repo](https://github.com/lia-oliveira/social-links-profile)
+- Live Site URL: [Social Links Profile Live](https://your-live-site-url.com)
 
 ## My process
 
@@ -51,29 +49,44 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
+1. To make a square image round, since the image was already in a square format of 32 x 32, it was enough to apply a border-radius of 50%, as shown below.
 
+```css
+.card header img {
+    ...
+    border-radius: 50%;
+}
+```
 
+2. To make the link clickable anywhere in the container, I applied a display: block to the link itself and used a line-height equal to that of the parent element.
+```css
+main ul li a{
+    display: block;
+    text-align: center;
+    line-height: 2.75rem;
+    width: 100%;
+}
+```
+3.The separation between the links was achieved using the Flexbox gap property.
+
+```css
+main ul{
+    display: flex;
+    flex-direction: column;
+    gap:0.9375rem;
+}
+```
 ### Continued development
-
-
-### Useful resources
-
-
+I intend to continue exploring the various applications of Flexbox.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
+- Website - [Github @lia-oliveira](https://github.com/lia-oliveira)
+- Frontend Mentor - [@lia-oliveira](https://www.frontendmentor.io/profile/lia-oliveira)
 
 ## Acknowledgments
-
+I’m grateful for the valuable tips from users @SabineEmden and @Mohammed Aljbalai regarding accessibility. I’ve already started using the tools they suggested, and they’ve been incredibly helpful.
 
