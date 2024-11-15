@@ -2,21 +2,21 @@
 
 @font-face {
     font-family: 'Inter-Regular';
-    src: url(/assets/fonts/static/Inter-Regular.ttf);
+    src: url(./../assets/fonts/static/Inter-Regular.ttf);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Inter-Semi-bold';
-    src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+    src: url(./../assets/fonts/static/Inter-SemiBold.ttf);
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Inter-Bold';
-    src: url(./assets/fonts/static/Inter-Bold.ttf);
+    src: url(./../assets/fonts/static/Inter-Bold.ttf);
     font-weight: 700;
     font-style: normal;
 }
@@ -39,6 +39,7 @@
     --fs-24: 1.5em;
     --fw-400: 400;
     --fw-600: 600;
+    --fw-700: 700;
 }
 
 
@@ -63,6 +64,7 @@ body{
 }
 
 .card{
+    margin: 0 1.5rem;
     padding: 2.5rem;
     display: flex;
     flex-direction: column;
@@ -72,13 +74,31 @@ body{
     text-align: center;
 }
 
+header img {
+    width: 5.375rem;
+    border-radius: 50%;
+    margin: 0.375rem 0 1.876rem 0;
+}
+
+header h1{
+    font-family: var(--font-semibold);
+    font-weight: var(--fw-600);
+    font-size: var(--fs-24);
+}
+
+header p:first-of-type{
+    color:var(--Green);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-12);
+    letter-spacing: 1.25px;
+    margin: 0.9375em 0 2.1875em 0;
+}
 
 
-
-
-
-
-
+header p:last-of-type{
+    font-size: var(--fs-12);
+    letter-spacing: 0.03em;
+}
 
 
 /*
