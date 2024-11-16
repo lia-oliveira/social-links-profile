@@ -85,14 +85,14 @@ header img {
 }
 
 header h1{
-    font-family: var(--font-semibold);
+    font-family: var(--font-bold);
     font-weight: var(--fw-600) ;
     font-size:var(--fs-24);
     margin: 1.875rem 0 0.9375rem 0;
 }
 
 header p:first-of-type{
-    font-family: var(--font-semibold);
+    font-family: var(--font-bold);
     font-weight: var(--fw-600);
     font-size: var(--fs-14);
     color:var(--Green);
