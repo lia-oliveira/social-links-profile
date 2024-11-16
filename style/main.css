@@ -102,31 +102,31 @@ header p:last-of-type{
     font-family: var(--font-semibold);
     font-weight: var(--fw-600);
     font-size: var(--fs-14);
-    margin: 1.625rem 0 0 0;
+    margin: 2.0625rem 0 0 0;
 }
 
 
-main ul{
+nav ul{
     display: flex;
     flex-direction: column;
     gap:1.0625rem;
 }
 
-main ul li{
+nav ul li{
     width: 100%;
     list-style: none;
     background-color: var(--Grey-700);
-    min-height: 2.5rem;
+    min-height: 2.8125rem;
     border-radius: 5px;
     box-sizing: border-box;
     transition: color 0.3s;
 }
 
-main ul li a{
+nav ul li a{
     display: block;
     text-align: center;
     width: 100%;
-    line-height: 2.5rem;
+    line-height: 2.8125rem;
     font-family: var(--font-semibold);
     font-weight: var(--fw-600);
     font-size: var(--fs-16);
@@ -134,8 +134,8 @@ main ul li a{
     text-decoration: none;
 }
 
-main ul li a:hover,
-main ul li a:focus-within{
+nav ul li a:hover,
+nav ul li a:focus-within{
     background-color: var(--Green);
     color:var(--Grey-900);
     border-radius: 5px;
